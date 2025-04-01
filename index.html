@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gunitakasha Photography</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fafafa;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      margin: 0;
+    }
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .portfolio img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+    .portfolio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      padding: 10px 20px;
+      background: #111;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gunitakasha Photography</h1>
+    <p>Profesionāla fotogrāfija ar sajūtu</p>
+  </header>
+  <nav>
+    <a href="#par">Par Mani</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#pakalpojumi">Pakalpojumi</a>
+    <a href="#kontakti">Kontakti</a>
+  </nav>
+
+  <section id="par">
+    <h2>Par Mani</h2>
+    <p>Sveika! Es esmu Gunita Kasha - fotogrāfe ar kaisli uz mirkļu iemūžināšanu. Specializējos portretos, kāzās un notikumu fotogrāfijā. Ikviens kadrs ir rūpīgi pārdomāts, lai atspoguļotu emocijas un stāstu.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+      <img src="https://via.placeholder.com/300x200?text=Foto+1" alt="Foto 1" />
+      <img src="https://via.placeholder.com/300x200?text=Foto+2" alt="Foto 2" />
+      <img src="https://via.placeholder.com/300x200?text=Foto+3" alt="Foto 3" />
+    </div>
+  </section>
+
+  <section id="pakalpojumi">
+    <h2>Pakalpojumi</h2>
+    <ul>
+      <li>Kāzu fotogrāfija</li>
+      <li>Portretu sesijas (individuālas, ģimenes, grūtniecības)</li>
+      <li>Notikumu fotogrāfija (korporatīvā, privātie pasākumi)</li>
+      <li>Foto kabīnes noma</li>
+    </ul>
+  </section>
+
+  <section id="kontakti">
+    <h2>Kontakti</h2>
+    <form>
+      <input type="text" placeholder="Vārds" required />
+      <input type="email" placeholder="E-pasts" required />
+      <textarea rows="5" placeholder="Ziņa" required></textarea>
+      <button type="submit">Sūtīt</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gunitakasha Photography. Visas tiesības aizsargātas.</p>
+  </footer>
+</body>
+</html>
