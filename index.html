@@ -2,134 +2,108 @@
 <!DOCTYPE html>
 <html lang="lv">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gunita Kasha Photography</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mirklis skaistumā | Gunita Kasha Photography</title>
   <style>
     body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
       margin: 0;
-      font-family: 'Open Sans', sans-serif;
-      background-color: #fafafa;
-      color: #333;
+      padding: 0;
     }
     header {
-      background: #111;
-      color: white;
-      padding: 40px 20px;
+      background-color: #111;
+      color: #fff;
+      padding: 2rem;
       text-align: center;
     }
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.8em;
+    h1 {
       margin: 0;
+      font-size: 2.5rem;
     }
-    nav {
-      background: #222;
-      display: flex;
-      justify-content: center;
-      padding: 10px;
-      flex-wrap: wrap;
-    }
-    nav a {
-      color: white;
-      margin: 5px 15px;
-      text-decoration: none;
-    }
-    section {
-      max-width: 1000px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-    .portfolio img {
-      width: 100%;
-      max-width: 300px;
-      margin: 10px;
-      border-radius: 8px;
-    }
-    .portfolio {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    form input, form textarea {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    form button {
-      padding: 10px 20px;
-      background: #111;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    footer {
-      background: #111;
-      color: white;
+    h2 {
       text-align: center;
-      padding: 20px;
+      margin-top: 3rem;
+      font-size: 2rem;
+      color: #444;
+    }
+    .about {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .about p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #333;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Gunita Kasha Photography</h1>
-    <p>Radu fotogrāfijas ar dvēseli</p>
+    <h1>Mirklis skaistumā</h1>
   </header>
-  <nav>
-    <a href="#par">Par Mani</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#pakalpojumi">Pakalpojumi</a>
-    <a href="#kontakti">Kontakti</a>
-  </nav>
 
-  <section id="par">
-    <h2>Par Mani</h2>
-    <p>Esmu Gunita Kasha – fotogrāfe ar radošu skatījumu, profesionālu pieredzi un akadēmisku izglītību fotogrāfijā. Man ir vadības un klientu apkalpošanas pieredze, un šodien es ar aizrautību strādāju, lai iemūžinātu mirkļus, kuri paliek sirdī. Piedalos meistarklasēs, turpinu pilnveidot prasmes, un man patīk cilvēki un viņu stāsti.</p>
+  <section class="about">
+    <p>Sveika! Es esmu Gunita — fotogrāfe, kura tic, ka katrs cilvēks un notikums ir vērts tikt iemūžināts no sirds.<br>
+    Man patīk radīt attēlus, kuros dzīvo emocijas — mīlestība, sirsnība, prieks un tuvība.<br>
+    Fotografēju jau daudzus gadus, un katra sesija man ir īpašs piedzīvojums. Esmu ieguvusi profesionālu izglītību fotogrāfijā un piedalos meistarklasēs, lai arvien pilnveidotu savu redzējumu un prasmes.</p>
+
+    <p>Specializējos portretos, kāzu, ģimenes, gaidību un notikumu fotogrāfijā. Fotografēju arī mākslas darbus un gleznas, kā arī veidoju produktu fotogrāfijas uzņēmumiem un mājražotājiem.<br>
+    Uzskatu, ka visīpašākās bildes rodas tad, kad cilvēks jūtas dabiski un ērti. Man vienmēr ir bijusi sajūta, ka caur fotogrāfiju iespējams apstādināt laiku — iemūžināt mirkli, kas nekad vairs nebūs tieši tāds pats. Un tas ir tas, kas mani iedvesmo — darīt šo darbu no sirds.</p>
   </section>
 
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <div class="portfolio">
-      <img src="https://lh3.googleusercontent.com/d/1eP8qUmJKnW6jh6kNN9GvTxOjIR7KqOS6" alt="Kāzu pāris" />
-      <img src="https://lh3.googleusercontent.com/d/1JPjUXhIai6uWxYG3Eri7__COU_oJYcH1" alt="Mazulis kastē" />
-      <img src="https://lh3.googleusercontent.com/d/1b2eA1AiwCk5lx_cMV0LKb3ekxalUfrsz" alt="Grūtniece" />
-      <img src="https://lh3.googleusercontent.com/d/1kA_zFhDMLREmPQIXK3qodKrcaz0ATmC_" alt="Portrets logā" />
-      <img src="https://lh3.googleusercontent.com/d/1PazEsnhV9sD07MSO0Nm9kJuPbREnIq-j" alt="Mazulis uz sedziņas" />
-      <img src="https://lh3.googleusercontent.com/d/1NZmHk-gjZz-C2DbXXlVf_XgFcuYPkJSr" alt="Kāzu brīdis brīvā dabā" />
-    </div>
+  <h2>Kāzas & Mīlestība</h2>
+  <section class="gallery">
+    <img src="images/kazas1.jpg" alt="Kāzu foto">
+    <img src="images/kazas2.jpg" alt="Kāzu pāris">
+    <img src="images/gredzeni.jpg" alt="Laulību gredzeni">
   </section>
 
-  <section id="pakalpojumi">
-    <h2>Pakalpojumi</h2>
-    <ul>
-      <li>Portretu fotogrāfija</li>
-      <li>Ģimenes fotosesijas</li>
-      <li>Grūtnieču fotosesijas</li>
-      <li>Produktu fotogrāfija</li>
-      <li>Pasākumu iemūžināšana (jubilejas, kristības, bērnu ballītes, kāzas, vecmeitu/vecpuišu pasākumi)</li>
-    </ul>
+  <h2>Portreti & Emocijas</h2>
+  <section class="gallery">
+    <img src="images/portrets1.jpg" alt="Portrets 1">
+    <img src="images/portrets2.jpg" alt="Portrets 2">
+    <img src="images/portrets3.jpg" alt="Portrets 3">
   </section>
 
-  <section id="kontakti">
-    <h2>Kontakti</h2>
-    <p><strong>Telefons:</strong> <a href="tel:+37127788660">+371 27788660</a><br>
-    <strong>E-pasts:</strong> <a href="mailto:gunita.kasha@gmail.com">gunita.kasha@gmail.com</a><br>
-    <strong>Instagram:</strong> <a href="https://instagram.com/gunitakashaphotography.eu" target="_blank">@gunitakashaphotography.eu</a></p>
-    <form>
-      <input type="text" placeholder="Vārds" required />
-      <input type="email" placeholder="E-pasts" required />
-      <textarea rows="5" placeholder="Ziņa" required></textarea>
-      <button type="submit">Sūtīt</button>
-    </form>
+  <h2>Produkti & Detaļas</h2>
+  <section class="gallery">
+    <img src="images/produkts1.jpg" alt="Produkts 1">
+    <img src="images/produkts2.jpg" alt="Produkts 2">
+    <img src="images/produkts3.jpg" alt="Produkts 3">
   </section>
 
-  <footer>
-    <p>&copy; 2025 Gunita Kasha Photography. Visas tiesības aizsargātas.</p>
-  </footer>
+  <h2>Daba & Dzīvnieki</h2>
+  <section class="gallery">
+    <img src="images/daba1.jpg" alt="Daba 1">
+    <img src="images/dzivnieks1.jpg" alt="Dzīvnieks 1">
+    <img src="images/motocikls.jpg" alt="Motokross">
+  </section>
+
+  <h2>Mākslas darbi & Gleznas</h2>
+  <section class="gallery">
+    <img src="images/glezna1.jpg" alt="Glezna 1">
+    <img src="images/glezna2.jpg" alt="Glezna 2">
+    <img src="images/glezna3.jpg" alt="Glezna 3">
+  </section>
 </body>
 </html>
